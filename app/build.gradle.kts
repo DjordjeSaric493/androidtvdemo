@@ -55,9 +55,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    //android TV dependency-ji
-    implementation("androidx.tv:tv-foundation:1.0.0-alpha12")
-    implementation("androidx.tv:tv-material:1.1.0-alpha01")
+
+
+    implementation(libs.navigation.compose)
 
 
 }
